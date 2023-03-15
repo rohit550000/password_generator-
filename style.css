@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(0, 229, 255, 0.299);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top:12rem;
+}
+
+.container{
+    border: 1px solid black;
+    height: 45rem;
+    width: 40rem;
+    padding:3rem 3rem;
+    background-color: rgb(250, 215, 215);
+    box-shadow:12px 8px black;
+    transition: all .7s ease-in-out;
+}
+
+.container:hover{
+    box-shadow:21px 20px black;
+}
+
+.container .output{
+    height:7rem;
+    width:100%;
+    font-size:5rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+}
+
+.container .option{
+    width: 34rem;
+    margin:2rem 0;
+}
+.container .option .op{
+    padding-top:2rem;
+}
+.container .option .op #leng{
+    width:10rem;
+    height:3rem;
+    float:right;
+    font-size:2rem;
+}
+.container .option span{
+    font-size: 2rem;
+    padding-right:2rem;
+    font-weight: 600;
+}
+.container .option .op .opt{
+    height:2rem;
+    width: 2rem;
+    float: right;
+    margin-right:3rem;
+    cursor: pointer;
+}
+
+.pwbtn{
+    padding:.6rem 2.5rem;
+    margin-left:5.8rem;
+    border-radius: 2rem;
+    font-size:2rem;
+    background-color:rgb(252, 255, 80);
+    cursor: pointer; 
+
+}
+
+.pwbtn:hover{
+    padding:.8rem 2.7rem;
+    background-color:greenyellow;
+    color: rgb(33, 18, 244);
+    font-weight: 600;
+}
+
+
+a{
+    padding:.2rem 3.5rem;
+    margin-left:11.8rem;
+    border-radius: 2rem;
+    font-size:2rem;
+    background-color:rgb(252, 255, 80);
+    cursor: pointer;
+    transition: all .2s ease-in-out; 
+    border:3px solid black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover{
+    padding:.2rem 3.9rem;
+    background-color:greenyellow;
+    color:blue;
+    
+}
+
